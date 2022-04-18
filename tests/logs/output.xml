@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.7.4 on win32)" generated="20220323 19:22:27.929" rpa="false" schemaversion="2">
+<suite id="s1" name="Webautomation" source="C:\Treinamento\Basico\tests\features\webautomation.robot">
+<test id="s1-t1" name="Cenário 2: Tentar cadastrar novo usuário sem email">
+<kw name="Abrir navegador" type="SETUP">
+<msg timestamp="20220323 19:22:28.149" level="FAIL">No keyword with name 'Abrir navegador' found.</msg>
+<status status="FAIL" starttime="20220323 19:22:28.149" endtime="20220323 19:22:28.149"/>
+</kw>
+<kw name="Fechar navegador" type="TEARDOWN">
+<msg timestamp="20220323 19:22:28.154" level="FAIL">No keyword with name 'Fechar navegador' found.</msg>
+<status status="FAIL" starttime="20220323 19:22:28.153" endtime="20220323 19:22:28.154">No keyword with name 'Fechar navegador' found.</status>
+</kw>
+<tag>ct_2</tag>
+<status status="FAIL" starttime="20220323 19:22:28.145" endtime="20220323 19:22:28.155">Setup failed:
+No keyword with name 'Abrir navegador' found.
+
+Also teardown failed:
+No keyword with name 'Fechar navegador' found.</status>
+</test>
+<doc>Aqui estarão todos testes autoatizados do módulo de automação web</doc>
+<status status="FAIL" starttime="20220323 19:22:27.931" endtime="20220323 19:22:28.157"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">ct_2</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Webautomation">Webautomation</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220323 19:22:28.142" level="ERROR">Error in file 'C:\Treinamento\Basico\tests\features\webautomation.robot' on line 5: Resource file '..\..\config\package.robot' does not exist.</msg>
+</errors>
+</robot>
